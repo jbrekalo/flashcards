@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -13,7 +15,7 @@ body {
   gap: 20px;
 }
 
-.flashcards div {
+.flashcards li {
   border: 1px solid #e7e7e7;
   background-color: #f7f7f7;
   border-radius: 7px;
@@ -26,7 +28,7 @@ body {
   cursor: pointer;
 }
 
-div.selected {
+li.selected {
   border: 1px solid #e03131;
   background-color: #e03131;
   color: #fff;
